@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+}
+
+.nav-logo
+{
+    width: 200px;
+}
+/* Section 1 start Here */
+.heading
+{
+    padding-top: 0px;
+    padding-left: 9%;
+    line-height: 90px;
+    font-size: 4rem;
+    
+}
+
+
+.para1
+{
+    padding-left: 9%;
+    font-size: 1.3rem;
+    padding-top: 15%;
+    
+}
+.para2
+{
+    padding-left: 9%;
+    font-size: 1rem;
+    padding-bottom: 26%;
+    
+}
+.im{
+    background-image: url(./images/1\ Section\ Bg\ Img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Section 1 End Here */
+
+/* Section 2 start Here */
+.bg2
+{
+    background-image: url(./images/2\ section\ bg\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading2
+{
+    opacity: 85%;
+    border-radius: 15px;
+    margin-top: 4%;
+    margin-left: 9%;
+    margin-right: 55%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(247 183 13);
+    padding-left: 4%;
+    padding-top: 3%;
+    padding-right: 4%;
+}
+
+.ml
+{
+    padding: 0 9%;
+}
+.card1-body
+{
+        background-color: rgb(247 183 13);
+}
+.card2-body
+{
+    background-color:#FFD24C;
+}
+
+
+/* Section 2 end Here */
+
+/* Section 3 start Here */
+.section3
+{
+    background-image: url(./images/3\ section\ bg\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.st-heading
+{
+    text-align: end;
+    font-size: 3rem;
+    padding-top: 8%;
+    margin-left: 60%;
+    margin-right: 9%;
+    padding-bottom: 2%;
+
+}
+
+.bt
+{
+    margin-left: 84.5%;
+    margin-bottom: 10%;
+}
+.st-para
+{
+    text-align: end;
+    margin-left: 60%;
+    margin-right: 9%;
+}
+.lh
+{
+    line-height: 50px;
+}
+.para3
+{
+    font-size: 1rem;
+}
+
+.but
+{
+    margin-bottom: 10%;
+
+}
+
+/* Section 3 End Here */
+
+/* -------------------------------------------Section 4 Start Here----------------------------------------- */
+.st4
+{
+    background-image: url(./images/section\ 4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.st4-heading
+{
+    padding-left: 9%;
+    padding-top: 13%
+}
+.st4-para
+{
+    padding-left: 9%;
+    padding-right: 50%;
+}
+.st4-bt
+{
+    margin-left: 9%;
+    margin-bottom: 10%;
+}
+/* -------------------------------------------Section 4 end Here----------------------------------------- */
+
+/* -------------------------------------------Section 5 Start Here----------------------------------------- */
+.sec5-bg
+{
+    background-image: url(./images/5\ section\ bg\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .sec5-heading
+ {
+     /* margin-left: 60%; */
+     margin-right: 9%;
+     padding-top: 10%;
+     line-height: 120px;
+     font-size: 4rem;
+     color: aliceblue;
+     text-align: end;
+ }
+
+ .sec5-bt
+ {
+    margin-left: 84%;
+    margin-bottom: 9%;
+ }
+/* -------------------------------------------Section 5 end Here----------------------------------------- */
+
+.sec6-bg{
+    background-image: url(./images/6\ section\ bg\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 7%;
+}
+
+.f-mar
+{
+    padding-right: 15%;
+    color: white;
+}
+
+.row
+{
+    margin: 0;
+    padding: 0;
+}
+.col-lg-6
+{
+    
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px){
+    .heading{
+        font-size: 2.5rem;
+        line-height: 60px;
+    }
+    .nav-logo
+    {
+        width: 150px;
+    }
+    h1.para1
+    {
+        padding-left: 9%;
+        font-size: 0.8rem;
+        padding-top: 20%;
+    }
+    h1.para2
+    {
+        padding-left: 9%;
+        font-size: 0.8rem;
+    } 
+    h2.fw-bold
+    {
+        font-size: 1.6rem;
+    }
+    p.para3
+    {
+        font-size: 0.8rem;
+    }
+    .st-heading
+    {
+    text-align: end;
+    font-size: 1.8rem;
+    padding-top: 8%;
+    margin-left: 60%;
+    margin-right: 9%;
+    padding-bottom: 2%;
+
+    }
+    p.st-para
+    {
+    font-size: .7rem;
+    }
+
+    .bt
+    {
+    margin-left: 79%;
+    margin-bottom: 10%;
+    }
+    .st4-heading
+    {
+    font-size: 1.8rem;
+    padding-left: 9%;
+    padding-top: 13%
+    }
+
+    p.st4-para
+    {
+    font-size: .7rem;
+    padding-left: 9%;
+    padding-right: 50%;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) and (min-width: 200px){
+    
+    .heading{
+        font-size: 1.8rem;
+        line-height: 40px;
+        padding-left: 12%;
+    }
+    .nav-logo
+    {
+        width: 120px;
+    }
+    h1.para1
+    {
+        padding-left: 12%;
+        font-size: 0.8rem;
+        padding-top: 20%;
+    }
+    h1.para2
+    {
+        padding-left: 12%;
+        font-size: 0.8rem;
+    }
+    h2.fw-bold
+    {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    p.para3
+    {
+        font-size: 0.5rem;
+    }
+    .st-heading
+    {
+    text-align: end;
+    font-size: 0.9rem;
+    padding-top: 8%;
+    margin-left: 60%;
+    margin-right: 9%;
+    padding-bottom: 2%;
+
+    }
+    p.st-para
+    {
+    font-size: .3rem;
+    margin-left: 70%;
+    }
+
+    .bt
+    {
+    margin-left: 72%;
+    margin-bottom: 10%;
+    }
+    .st4-heading
+    {
+    font-size: .9rem;
+    padding-left: 9%;
+    padding-top: 13%
+    }
+
+    p.st4-para
+    {
+    font-size: .3rem;
+    padding-left: 9%;
+    padding-right: 50%;
+    }
+    .sec5-heading
+    {
+        /* margin-left: 60%; */
+        margin-left: 9%;
+        padding-top: 10%;
+        line-height: 60px;
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        text-align: start;
+    }
+    .sec5-bt
+    {
+       margin-left: 9%;
+       margin-bottom: 9%;
+    }
+
+}
