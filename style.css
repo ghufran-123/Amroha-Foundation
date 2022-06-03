@@ -89,7 +89,7 @@
 {
     text-align: end;
     font-size: 3rem;
-    padding-top: 8%;
+    padding-top: 6%;
     margin-left: 60%;
     margin-right: 9%;
     padding-bottom: 2%;
@@ -104,8 +104,8 @@
 .st-para
 {
     text-align: end;
-    margin-left: 60%;
-    margin-right: 9%;
+    padding-left: 60%;
+    padding-right: 9%;
 }
 .lh
 {
@@ -310,7 +310,8 @@
     p.st-para
     {
     font-size: .3rem;
-    margin-left: 70%;
+    padding-left: 60%;
+    padding-right: 9%;
     }
 
     .bt
